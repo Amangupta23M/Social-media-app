@@ -1,0 +1,68 @@
+.sidebar {
+  flex: 2.5;
+  height: 36.5rem;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #eef1f5;
+}
+.sidebarwrapper {
+  padding: 20px;
+}
+.sidebarlist {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.sidebarlistitem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 65px;
+
+  color: #164863;
+}
+
+.sidebarlistitem > span {
+  margin-left: 15px;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.ProfileTop {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.ProfileImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.categ {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 15px;
+  color: #164863;
+  display: flex;
+  align-items: center;
+}
+.categOption {
+  border: none;
+  outline: none;
+  margin-left: 15px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+select option[value="hiddenVal"] {
+  display: none;
+}

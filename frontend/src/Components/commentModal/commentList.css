@@ -1,0 +1,24 @@
+.comment{
+    display: flex;
+margin: 2rem;
+}
+.comment-author{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comment-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    
+}
+.commentedBy{
+    height: 1.2rem;
+    display: flex;
+    font-size: .8rem;
+    font-weight: 600;
+    /* justify-content: center; */
+    align-items: center;
+    
+}

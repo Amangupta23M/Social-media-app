@@ -1,0 +1,13 @@
+.rightbarContainer{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    overflow-x: hidden;
+    background-color:#ffffff;
+    padding-left: 12px;
+}
+.trendingNews{
+    height:30rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

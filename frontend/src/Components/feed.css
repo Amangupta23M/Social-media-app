@@ -1,0 +1,31 @@
+.feed{
+    flex: 6;
+    background-color:#eaf0f4ae;
+    height:36rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.feedwrapper{
+    padding: 20px;
+   
+}
+.optionWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+    border-bottom:  1px solid rgb(194, 194, 194);
+    
+}
+.optionItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:50%;
+    height: 3rem;
+    font-weight: 600;
+    cursor: pointer;
+   
+}
